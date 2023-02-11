@@ -13,7 +13,6 @@ public class CarDtoRequest
 {
     @NotBlank
     private String name;
-    @NotBlank
     private Brand brand;
     @NotBlank
     private String color;
