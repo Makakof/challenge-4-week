@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CarDtoResponse
 {
-    private long idCar;
+    private long idChassi;
     private String name;
     private String brand;
     private String color;

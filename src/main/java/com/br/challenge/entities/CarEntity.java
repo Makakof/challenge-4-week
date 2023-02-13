@@ -12,7 +12,7 @@ public class CarEntity
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long carId;
+    private long idChassi;
     @Column(name = "NAMECAR")
     private String name;
     @Column(name = "BRAND")

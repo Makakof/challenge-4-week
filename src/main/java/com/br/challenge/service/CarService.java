@@ -28,10 +28,10 @@ public class CarService
         return carDtoResponse;
     }
 
-    public CarDtoResponse getById(Long carId)
+    public CarDtoResponse getById(Long idChassi)
     {
-        CarEntity carEntity = carRepository.findById(carId).orElseThrow(() ->
-                new CarNotFoundException("Car with id: " + carId + " not found"));
+        CarEntity carEntity = carRepository.findById(idChassi).orElseThrow(() ->
+                new CarNotFoundException("Car with id: " + idChassi + " not found"));
         return modelMapper.map(carEntity, CarDtoResponse.class);
     }
 }

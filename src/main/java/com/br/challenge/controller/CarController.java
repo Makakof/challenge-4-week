@@ -22,10 +22,10 @@ public class CarController
         return ResponseEntity.ok(carDtoResponse);
     }
 
-    @GetMapping("/cars/get/{carId}")
-    public ResponseEntity<CarDtoResponse> getById(@PathVariable Long carId)
+    @GetMapping("/cars/get/{idChassi}")
+    public ResponseEntity<CarDtoResponse> getById(@PathVariable Long idChassi)
     {
-        CarDtoResponse carDtoResponse = carService.getById(carId);
+        CarDtoResponse carDtoResponse = carService.getById(idChassi);
         return ResponseEntity.ok(carDtoResponse);
     }
 }
