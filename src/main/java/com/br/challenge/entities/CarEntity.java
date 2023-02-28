@@ -1,12 +1,12 @@
 package com.br.challenge.entities;
 
-import com.br.challenge.Brand;
+import com.br.challenge.BrandEnum;
 import lombok.Data;
 
 import javax.persistence.*;
 
 @Data
-@Table(name = "CARROS")
+@Table(name = "CAR")
 @Entity
 public class CarEntity
 {
@@ -17,10 +17,10 @@ public class CarEntity
     private String name;
     @Column(name = "BRAND")
     @Enumerated(EnumType.STRING)
-    private Brand brand;
+    private BrandEnum brandEnum;
     @Column(name = "COLOR")
     private String color;
-    @Column(name = "FABRICATIONYEAR")
+    @Column(name = "FABRICATION_YEAR")
     private String fabricationYear;
 }
 

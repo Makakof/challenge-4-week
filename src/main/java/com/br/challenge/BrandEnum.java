@@ -1,6 +1,6 @@
 package com.br.challenge;
 
-public enum Brand
+public enum BrandEnum
 {
         Ford,
         Chevrolet,

@@ -1,5 +1,5 @@
 package com.br.challenge.dto;
-import com.br.challenge.Brand;
+import com.br.challenge.BrandEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,7 @@ public class CarDtoRequest
 {
     @NotBlank
     private String name;
-    private Brand brand;
+    private BrandEnum brandEnum;
     @NotBlank
     private String color;
     @NotBlank
