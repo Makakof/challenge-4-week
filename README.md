@@ -1,4 +1,4 @@
-# First Challange of Java SpringBoot!
+﻿# First Challange of Java SpringBoot!
 
 The challenge below was proposed in the first week of the Compass scholarship program. Below is the order:
 
@@ -7,7 +7,7 @@ The challenge below was proposed in the first week of the Compass scholarship pr
 
 Use **Java 11, Maven**(to manage dependencies), and mysql with **root password** and **root user**. 
 ● The service should have an entity, dtos, a repository (for database connection), a controller , a service (which should house the logic when saving and fetching from the database)
-	● The connection to the database must be made using JPA and JDBC. **Hint: use an application.properties or application.yaml to be able to do this**
+● The connection to the database must be made using JPA and JDBC. **Hint: use an application.properties or application.yaml to be able to do this**
 
 ## Create two endpoints
 
@@ -30,3 +30,6 @@ Use **Java 11, Maven**(to manage dependencies), and mysql with **root password**
 ● Rule 4- Nulls must not be saved in the database or returned in the **OUTPUT** or **ENTRY** DTOs, this validation must occur and in case of null, throw **an exception as described above. **
 ● Rules 5 - Projects that do not have **the correct database configuration will have a discounted grade. **
 ● Rule 6- The fields must be **in English like the payload above**
+
+
+```
