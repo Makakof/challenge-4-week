@@ -12,8 +12,8 @@ Use **Java 11, Maven**(to manage dependencies), and mysql with **root password**
 ## Create two endpoints
 
 ● The payload sent to register a car in the database must have the following URLs: 
-○ POST: /cars/post 
-○ GET: /cars/get/{idChassi} 
+● POST: /cars/post 
+● GET: /cars/get/{idChassi} 
 >{
 "idChassi": "123", (type:long(this should be the primary key of your table and unique) 
 "name": "New fiesta", (type:String) 
